@@ -542,7 +542,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "createLabelInProjektSDA",
 			"id": "7cc3ce47-4064-4566-9e95-bccc9f371673",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
