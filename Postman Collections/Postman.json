@@ -548,8 +548,48 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/boards/{id}/labels?key={{key}}&token={{token}}&idBoard=644e5b9c08ed79bf72a64277&name=LabelTEST&color=null",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"boards",
+						"{id}",
+						"labels"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "{{key}}"
+						},
+						{
+							"key": "token",
+							"value": "{{token}}"
+						},
+						{
+							"key": "idBoard",
+							"value": "644e5b9c08ed79bf72a64277",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "LabelTEST",
+							"type": "text"
+						},
+						{
+							"key": "color",
+							"value": "null",
+							"type": "text"
+						}
+					]
+				}
 			},
 			"response": []
 		}
