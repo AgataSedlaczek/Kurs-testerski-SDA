@@ -551,7 +551,7 @@
 				"method": "POST",
 				"header": [],
 				"url": {
-					"raw": "https://api.trello.com/1/boards/{id}/labels?idBoard=644e5b9c08ed79bf72a64277&key={{key}}&token={{token}}&name=LabelTEST&color=null",
+					"raw": "https://api.trello.com/1/boards/644e5b9c08ed79bf72a64277/labels?idBoard=644e5b9c08ed79bf72a64277&key={{key}}&token={{token}}&name=LabelTEST&color=null",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -561,7 +561,7 @@
 					"path": [
 						"1",
 						"boards",
-						"{id}",
+						"644e5b9c08ed79bf72a64277",
 						"labels"
 					],
 					"query": [
