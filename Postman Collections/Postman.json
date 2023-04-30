@@ -7,7 +7,7 @@
 	"item": [
 		{
 			"name": "createNewBoard",
-			"_postman_id": "33443cfa-64cc-49f8-bdba-1084e7a4c523",
+			"id": "33443cfa-64cc-49f8-bdba-1084e7a4c523",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -56,7 +56,7 @@
 		},
 		{
 			"name": "createNewList",
-			"_postman_id": "217eec11-7c6b-444b-a52b-45a2beb40ffd",
+			"id": "217eec11-7c6b-444b-a52b-45a2beb40ffd",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -99,7 +99,7 @@
 		},
 		{
 			"name": "creatNewCard",
-			"_postman_id": "1690a0fd-3e90-4c87-a980-7267503b497e",
+			"id": "1690a0fd-3e90-4c87-a980-7267503b497e",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -146,7 +146,7 @@
 		},
 		{
 			"name": "UpdateBoard",
-			"_postman_id": "ddfdc014-a9d6-4a15-9b30-f6e4417a47df",
+			"id": "ddfdc014-a9d6-4a15-9b30-f6e4417a47df",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -186,7 +186,7 @@
 		},
 		{
 			"name": "createCheckList",
-			"_postman_id": "d45fd97e-7602-4a34-ae48-821261242983",
+			"id": "d45fd97e-7602-4a34-ae48-821261242983",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -230,7 +230,7 @@
 		},
 		{
 			"name": "createNewListToDo",
-			"_postman_id": "fea6cf40-77dd-4c4d-94e2-2fee21a9d314",
+			"id": "fea6cf40-77dd-4c4d-94e2-2fee21a9d314",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -273,7 +273,7 @@
 		},
 		{
 			"name": "createNewListInProgress",
-			"_postman_id": "de5a78b7-0b75-40e6-aad0-c05e2076c546",
+			"id": "de5a78b7-0b75-40e6-aad0-c05e2076c546",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -316,7 +316,7 @@
 		},
 		{
 			"name": "createNewListDone",
-			"_postman_id": "aae8fba8-4b6c-4297-b9a3-3ee08ee6b6a8",
+			"id": "aae8fba8-4b6c-4297-b9a3-3ee08ee6b6a8",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -359,7 +359,7 @@
 		},
 		{
 			"name": "createNewCardInToDo",
-			"_postman_id": "8817d07a-7d62-4a08-874e-9a7d46bdffb4",
+			"id": "8817d07a-7d62-4a08-874e-9a7d46bdffb4",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -406,7 +406,7 @@
 		},
 		{
 			"name": "createNewOrganization",
-			"_postman_id": "410bfb72-9438-449c-a9ff-2b72f409d875",
+			"id": "410bfb72-9438-449c-a9ff-2b72f409d875",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -455,7 +455,7 @@
 		},
 		{
 			"name": "CreateBoardInProjektSDA",
-			"_postman_id": "aa41d685-d582-48c2-85c4-2745dea83427",
+			"id": "aa41d685-d582-48c2-85c4-2745dea83427",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -495,6 +495,18 @@
 						}
 					]
 				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"id": "3a2b5279-835e-464a-820a-69bd52219057",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
 			},
 			"response": []
 		}
