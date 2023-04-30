@@ -499,7 +499,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "createNewListInNewOrganization",
 			"id": "3a2b5279-835e-464a-820a-69bd52219057",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
