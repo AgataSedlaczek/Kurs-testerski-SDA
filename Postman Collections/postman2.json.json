@@ -220,7 +220,7 @@
 			"response": []
 		},
 		{
-			"name": "DoneList",
+			"name": "CreateDoneList",
 			"id": "1698bb58-9555-467f-a84d-79add4f676c2",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
