@@ -263,7 +263,7 @@
 			"response": []
 		},
 		{
-			"name": "https://api.trello.com/1/cards?idList=6469e2873bd87bb901b5ba72&key={{key}}&token={{token}}&name=nowa karta",
+			"name": "CreateCardToDoList",
 			"id": "1c338383-a6b7-46c7-ab1a-a6e8a662fea4",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
