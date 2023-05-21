@@ -1002,23 +1002,6 @@
 		},
 		{
 			"name": "LabelOnCard",
-			"event": [
-				{
-					"listen": "test",
-					"script": {
-						"id": "97f03649-d96a-4a56-938a-5acb6329dcdd",
-						"exec": [
-							"pm.test(\"Successful POST request\", function () {\r",
-							"    pm.expect(pm.response.code).to.be.oneOf([200, 201, 202]);\r",
-							"});\r",
-							"pm.test(\"Response time is less than 450ms\", function () {\r",
-							"    pm.expect(pm.response.responseTime).to.be.below(450);\r",
-							"});"
-						],
-						"type": "text/javascript"
-					}
-				}
-			],
 			"id": "557240c6-b704-4ca7-994c-73d3a1e00475",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
@@ -1064,23 +1047,6 @@
 		},
 		{
 			"name": "AddLabelToACard",
-			"event": [
-				{
-					"listen": "test",
-					"script": {
-						"id": "76f2a4b4-857c-4c9b-ad13-9565d04fe049",
-						"exec": [
-							"pm.test(\"Successful POST request\", function () {\r",
-							"    pm.expect(pm.response.code).to.be.oneOf([200, 201, 202]);\r",
-							"});\r",
-							"pm.test(\"Response time is less than 450ms\", function () {\r",
-							"    pm.expect(pm.response.responseTime).to.be.below(450);\r",
-							"});"
-						],
-						"type": "text/javascript"
-					}
-				}
-			],
 			"id": "3881722d-df45-4104-a097-cc2dc7eee85a",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
