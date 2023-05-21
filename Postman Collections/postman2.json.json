@@ -134,7 +134,7 @@
 			"response": []
 		},
 		{
-			"name": "InProgressList",
+			"name": "CreateInProgressList",
 			"id": "b43b0a59-474a-4495-92e5-a6df1f9be5ff",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
