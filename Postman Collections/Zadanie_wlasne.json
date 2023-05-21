@@ -7,7 +7,7 @@
 	"item": [
 		{
 			"name": "BoardZadanieWłasne",
-			"_postman_id": "44df6a36-aa7b-4143-8f67-eb7106d4b90d",
+			"id": "44df6a36-aa7b-4143-8f67-eb7106d4b90d",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -52,7 +52,7 @@
 		},
 		{
 			"name": "CreateListDone",
-			"_postman_id": "d89e8882-9003-48fb-8ea9-76600fa690f0",
+			"id": "d89e8882-9003-48fb-8ea9-76600fa690f0",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -95,7 +95,7 @@
 		},
 		{
 			"name": "CreateListDocumentation",
-			"_postman_id": "56345eef-6af8-4c36-a940-dcf2c8261d21",
+			"id": "56345eef-6af8-4c36-a940-dcf2c8261d21",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -138,7 +138,7 @@
 		},
 		{
 			"name": "CreateListTesting",
-			"_postman_id": "9ec8d503-60a7-4cf4-a903-8d6b4d9e8905",
+			"id": "9ec8d503-60a7-4cf4-a903-8d6b4d9e8905",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -181,7 +181,7 @@
 		},
 		{
 			"name": "CreateListPretesting",
-			"_postman_id": "e6437a56-5bc7-4e3d-be6d-57e2dc03b8b5",
+			"id": "e6437a56-5bc7-4e3d-be6d-57e2dc03b8b5",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -224,7 +224,7 @@
 		},
 		{
 			"name": "CreateListInProgress",
-			"_postman_id": "dc118766-e896-4575-97e6-f276faa5eea5",
+			"id": "dc118766-e896-4575-97e6-f276faa5eea5",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -267,7 +267,7 @@
 		},
 		{
 			"name": "CreateListToDo",
-			"_postman_id": "d09256a1-36af-4ee7-a774-487d67ea045b",
+			"id": "d09256a1-36af-4ee7-a774-487d67ea045b",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -310,7 +310,7 @@
 		},
 		{
 			"name": "CreateCard1",
-			"_postman_id": "4cf2bbce-98ab-4e8e-b9a3-689b7d858cc3",
+			"id": "4cf2bbce-98ab-4e8e-b9a3-689b7d858cc3",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -364,7 +364,7 @@
 		},
 		{
 			"name": "CreateLabel",
-			"_postman_id": "b2d68359-cb5d-4013-abeb-7d0620fb4249",
+			"id": "b2d68359-cb5d-4013-abeb-7d0620fb4249",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -411,7 +411,7 @@
 		},
 		{
 			"name": "AddDescToBoard",
-			"_postman_id": "d13853b4-e1d0-4c02-bd1a-4e7765cfd6d7",
+			"id": "d13853b4-e1d0-4c02-bd1a-4e7765cfd6d7",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -455,7 +455,7 @@
 		},
 		{
 			"name": "CreateCardInProgres",
-			"_postman_id": "2df07442-e166-4f92-900e-df1b4f9bd728",
+			"id": "2df07442-e166-4f92-900e-df1b4f9bd728",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -502,7 +502,7 @@
 		},
 		{
 			"name": "CreateCardDocumentation",
-			"_postman_id": "8d09bd11-7e99-42cc-982e-1382f0ce3d57",
+			"id": "8d09bd11-7e99-42cc-982e-1382f0ce3d57",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -549,7 +549,7 @@
 		},
 		{
 			"name": "CreateCardTesting",
-			"_postman_id": "1a1e3d6e-4452-4271-9a6e-8a30cf02c4d5",
+			"id": "1a1e3d6e-4452-4271-9a6e-8a30cf02c4d5",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -596,7 +596,7 @@
 		},
 		{
 			"name": "CreateCardPretesting",
-			"_postman_id": "ffca3258-beb6-481c-9362-bcdce1ed11b8",
+			"id": "ffca3258-beb6-481c-9362-bcdce1ed11b8",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -643,7 +643,7 @@
 		},
 		{
 			"name": "CreateCardToDo",
-			"_postman_id": "f75e5115-0235-43d0-a28f-eda4ad05c5f2",
+			"id": "f75e5115-0235-43d0-a28f-eda4ad05c5f2",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -690,7 +690,7 @@
 		},
 		{
 			"name": "AddChecklist",
-			"_postman_id": "20e8ab0f-8b52-4605-99f5-c439f12186b6",
+			"id": "20e8ab0f-8b52-4605-99f5-c439f12186b6",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -729,6 +729,18 @@
 						}
 					]
 				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"id": "557240c6-b704-4ca7-994c-73d3a1e00475",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
 			},
 			"response": []
 		}
