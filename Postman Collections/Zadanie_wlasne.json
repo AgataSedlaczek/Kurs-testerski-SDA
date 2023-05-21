@@ -814,6 +814,23 @@
 		},
 		{
 			"name": "CreateCardPretesting",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "70be45d4-c2ec-491c-ba6f-2610b86634f8",
+						"exec": [
+							"pm.test(\"Successful POST request\", function () {\r",
+							"    pm.expect(pm.response.code).to.be.oneOf([200,201, 202]);\r",
+							"});\r",
+							"pm.test(\"Response time is less than 450ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(450);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"id": "ffca3258-beb6-481c-9362-bcdce1ed11b8",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
