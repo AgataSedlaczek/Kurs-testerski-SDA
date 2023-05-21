@@ -511,6 +511,23 @@
 		},
 		{
 			"name": "AddDescToBoard",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "ab1f0c2b-fd0d-4c9c-87a9-82ccdc9ac8aa",
+						"exec": [
+							"pm.test(\"Successful PUT request\", function () {\r",
+							"    pm.expect(pm.response.code).to.be.oneOf([200,201, 202]);\r",
+							"});\r",
+							"pm.test(\"Response time is less than 450ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(450);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"id": "d13853b4-e1d0-4c02-bd1a-4e7765cfd6d7",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
