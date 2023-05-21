@@ -261,6 +261,55 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "https://api.trello.com/1/cards?idList=6469e2873bd87bb901b5ba72&key={{key}}&token={{token}}&name=nowa karta",
+			"id": "1c338383-a6b7-46c7-ab1a-a6e8a662fea4",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "https://api.trello.com/1/cards?idList=6469e2873bd87bb901b5ba72&key={{key}}&token={{token}}&name=nowa karta",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"cards"
+					],
+					"query": [
+						{
+							"key": "idList",
+							"value": "6469e2873bd87bb901b5ba72"
+						},
+						{
+							"key": "key",
+							"value": "{{key}}"
+						},
+						{
+							"key": "token",
+							"value": "{{token}}"
+						},
+						{
+							"key": "name",
+							"value": "nowa karta",
+							"type": "text"
+						}
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
