@@ -91,7 +91,7 @@
 			"response": []
 		},
 		{
-			"name": "https://api.trello.com/1/lists?name=To Do&idBoard=6469dbb0ba960198e6ba5867&key={{key}}&token={{token}}",
+			"name": "ToDoList",
 			"id": "6b352f59-4fb6-4e9a-85a7-d3407b167fe5",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
