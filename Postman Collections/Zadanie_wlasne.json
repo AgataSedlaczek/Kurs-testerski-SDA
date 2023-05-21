@@ -138,6 +138,23 @@
 		},
 		{
 			"name": "CreateListTesting",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "7ab31d06-bf70-4ec8-8b1b-945310d23a97",
+						"exec": [
+							"pm.test(\"Successful POST request\", function () {\r",
+							"    pm.expect(pm.response.code).to.be.oneOf([200,201, 202]);\r",
+							"});\r",
+							"pm.test(\"Response time is less than 450ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(450);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"id": "9ec8d503-60a7-4cf4-a903-8d6b4d9e8905",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
