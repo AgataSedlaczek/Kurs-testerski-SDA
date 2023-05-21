@@ -409,8 +409,45 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "https://api.trello.com/1/cards/6469e4d9f7566a47cbfd2a1d?key={{key}}&token={{token}}&id=6469e4d9f7566a47cbfd2a1d&desc=opis 2",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"cards",
+						"6469e4d9f7566a47cbfd2a1d"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "{{key}}"
+						},
+						{
+							"key": "token",
+							"value": "{{token}}"
+						},
+						{
+							"key": "id",
+							"value": "6469e4d9f7566a47cbfd2a1d"
+						},
+						{
+							"key": "desc",
+							"value": "opis 2"
+						}
+					]
+				}
 			},
 			"response": []
 		}
