@@ -128,6 +128,23 @@
 		},
 		{
 			"name": "CreateListDocumentation",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "70b0a320-7ad2-4838-a6fa-ae530a416df0",
+						"exec": [
+							"pm.test(\"Successful POST request\", function () {\r",
+							"    pm.expect(pm.response.code).to.be.oneOf([200,201, 202]);\r",
+							"});\r",
+							"pm.test(\"Response time is less than 450ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(450);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"id": "56345eef-6af8-4c36-a940-dcf2c8261d21",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
