@@ -258,6 +258,23 @@
 		},
 		{
 			"name": "CreateListInProgress",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "d129998a-1625-4ceb-9ef2-19eb93b29477",
+						"exec": [
+							"pm.test(\"Successful POST request\", function () {\r",
+							"    pm.expect(pm.response.code).to.be.oneOf([200,201, 202]);\r",
+							"});\r",
+							"pm.test(\"Response time is less than 450ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(450);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"id": "dc118766-e896-4575-97e6-f276faa5eea5",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
