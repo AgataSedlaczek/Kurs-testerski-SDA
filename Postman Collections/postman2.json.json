@@ -134,7 +134,7 @@
 			"response": []
 		},
 		{
-			"name": "https://api.trello.com/1/lists?name=In Progres&idBoard=6469dbb0ba960198e6ba5867&key={{key}}&token={{token}}",
+			"name": "InProgressList",
 			"id": "b43b0a59-474a-4495-92e5-a6df1f9be5ff",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
