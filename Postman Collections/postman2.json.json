@@ -361,8 +361,44 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/cards?idList=6469e2873bd87bb901b5ba72&key={{key}}&token={{token}}&name=trzecia karta&desc=opis",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"cards"
+					],
+					"query": [
+						{
+							"key": "idList",
+							"value": "6469e2873bd87bb901b5ba72"
+						},
+						{
+							"key": "key",
+							"value": "{{key}}"
+						},
+						{
+							"key": "token",
+							"value": "{{token}}"
+						},
+						{
+							"key": "name",
+							"value": "trzecia karta"
+						},
+						{
+							"key": "desc",
+							"value": "opis",
+							"type": "text"
+						}
+					]
+				}
 			},
 			"response": []
 		},
