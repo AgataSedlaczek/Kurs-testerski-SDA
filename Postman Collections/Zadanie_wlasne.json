@@ -733,7 +733,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "LabelOnCard",
 			"id": "557240c6-b704-4ca7-994c-73d3a1e00475",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
