@@ -226,7 +226,7 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "GET",
+				"method": "POST",
 				"header": [],
 				"url": {
 					"raw": "https://api.trello.com/1/lists?name=Done&idBoard=6469dbb0ba960198e6ba5867&key={{key}}&token={{token}}",
