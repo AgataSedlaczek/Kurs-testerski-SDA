@@ -1064,6 +1064,23 @@
 		},
 		{
 			"name": "AddLabelToACard",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "76f2a4b4-857c-4c9b-ad13-9565d04fe049",
+						"exec": [
+							"pm.test(\"Successful POST request\", function () {\r",
+							"    pm.expect(pm.response.code).to.be.oneOf([200, 201, 202]);\r",
+							"});\r",
+							"pm.test(\"Response time is less than 450ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(450);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"id": "3881722d-df45-4104-a097-cc2dc7eee85a",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
