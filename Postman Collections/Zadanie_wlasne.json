@@ -686,6 +686,23 @@
 		},
 		{
 			"name": "CreateCardDocumentation",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "6a7746b7-8ada-4b41-b596-dcca967e1020",
+						"exec": [
+							"pm.test(\"Successful POST request\", function () {\r",
+							"    pm.expect(pm.response.code).to.be.oneOf([200,201, 202]);\r",
+							"});\r",
+							"pm.test(\"Response time is less than 450ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(450);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"id": "8d09bd11-7e99-42cc-982e-1382f0ce3d57",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
