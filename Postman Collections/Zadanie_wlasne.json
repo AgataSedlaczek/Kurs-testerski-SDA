@@ -378,6 +378,23 @@
 		},
 		{
 			"name": "CreateCard1",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "e10a6fe5-b17b-4970-8aaf-d77f6e811483",
+						"exec": [
+							"pm.test(\"Successful POST request\", function () {\r",
+							"    pm.expect(pm.response.code).to.be.oneOf([200,201, 202]);\r",
+							"});\r",
+							"pm.test(\"Response time is less than 450ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(450);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"id": "4cf2bbce-98ab-4e8e-b9a3-689b7d858cc3",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
@@ -417,13 +434,11 @@
 						},
 						{
 							"key": "name",
-							"value": "zrobione",
-							"type": "text"
+							"value": "zrobione"
 						},
 						{
 							"key": "desc",
-							"value": "opis",
-							"type": "text"
+							"value": "opis"
 						}
 					]
 				}
@@ -432,6 +447,23 @@
 		},
 		{
 			"name": "CreateLabel",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "cd8cdb37-abf5-4ac8-a1ea-4d89eb6c4f46",
+						"exec": [
+							"pm.test(\"Successful POST request\", function () {\r",
+							"    pm.expect(pm.response.code).to.be.oneOf([200,201, 202]);\r",
+							"});\r",
+							"pm.test(\"Response time is less than 450ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(450);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"id": "b2d68359-cb5d-4013-abeb-7d0620fb4249",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
