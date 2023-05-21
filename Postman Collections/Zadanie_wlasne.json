@@ -739,8 +739,41 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/cards/6469ecf28f5d6257e0fb3931/labels?color=lime&key={{key}}&token={{token}}&id=6469ecf28f5d6257e0fb3931",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"cards",
+						"6469ecf28f5d6257e0fb3931",
+						"labels"
+					],
+					"query": [
+						{
+							"key": "color",
+							"value": "lime"
+						},
+						{
+							"key": "key",
+							"value": "{{key}}"
+						},
+						{
+							"key": "token",
+							"value": "{{token}}"
+						},
+						{
+							"key": "id",
+							"value": "6469ecf28f5d6257e0fb3931"
+						}
+					]
+				}
 			},
 			"response": []
 		}
