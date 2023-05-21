@@ -1,0 +1,94 @@
+{
+	"info": {
+		"_postman_id": "d340bbbf-9c96-462c-8c44-8114ea111cf0",
+		"name": "TrelloAPI 2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "CreateBoard",
+			"_postman_id": "498fe565-d1d3-4aa5-a9da-57c71e30aa35",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/boards/?name=Pierwszy projekt SDA&key=87a94241e6d9a54c6066bad41e7daf22&token=ATTAac89a5c4d1c619f6defc9793452146b91bf0bc9d640f814ffba9436b0834b05b1753F55D",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"boards",
+						""
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Pierwszy projekt SDA"
+						},
+						{
+							"key": "key",
+							"value": "87a94241e6d9a54c6066bad41e7daf22"
+						},
+						{
+							"key": "token",
+							"value": "ATTAac89a5c4d1c619f6defc9793452146b91bf0bc9d640f814ffba9436b0834b05b1753F55D"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GeatBoard",
+			"_postman_id": "d8c96f7f-ff4e-4c47-aaf3-75b77d8a0630",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "https://api.trello.com/1/boards/6469dbb0ba960198e6ba5867?key={{key}}&token={{token}}&id=6469dbb0ba960198e6ba5867",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"boards",
+						"6469dbb0ba960198e6ba5867"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "{{key}}"
+						},
+						{
+							"key": "token",
+							"value": "{{token}}"
+						},
+						{
+							"key": "id",
+							"value": "6469dbb0ba960198e6ba5867"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
