@@ -318,6 +318,23 @@
 		},
 		{
 			"name": "CreateListToDo",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "e97ed656-65ae-43f2-bf37-9167a9e77fd5",
+						"exec": [
+							"pm.test(\"Successful POST request\", function () {\r",
+							"    pm.expect(pm.response.code).to.be.oneOf([200,201, 202]);\r",
+							"});\r",
+							"pm.test(\"Response time is less than 450ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(450);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"id": "d09256a1-36af-4ee7-a774-487d67ea045b",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
@@ -361,6 +378,23 @@
 		},
 		{
 			"name": "CreateCard1",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "e10a6fe5-b17b-4970-8aaf-d77f6e811483",
+						"exec": [
+							"pm.test(\"Successful POST request\", function () {\r",
+							"    pm.expect(pm.response.code).to.be.oneOf([200,201, 202]);\r",
+							"});\r",
+							"pm.test(\"Response time is less than 450ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(450);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"id": "4cf2bbce-98ab-4e8e-b9a3-689b7d858cc3",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
@@ -400,13 +434,11 @@
 						},
 						{
 							"key": "name",
-							"value": "zrobione",
-							"type": "text"
+							"value": "zrobione"
 						},
 						{
 							"key": "desc",
-							"value": "opis",
-							"type": "text"
+							"value": "opis"
 						}
 					]
 				}
