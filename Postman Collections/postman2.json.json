@@ -7,7 +7,7 @@
 	"item": [
 		{
 			"name": "CreateBoard",
-			"_postman_id": "498fe565-d1d3-4aa5-a9da-57c71e30aa35",
+			"id": "498fe565-d1d3-4aa5-a9da-57c71e30aa35",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -47,7 +47,7 @@
 		},
 		{
 			"name": "GeatBoard",
-			"_postman_id": "d8c96f7f-ff4e-4c47-aaf3-75b77d8a0630",
+			"id": "d8c96f7f-ff4e-4c47-aaf3-75b77d8a0630",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -84,6 +84,49 @@
 						{
 							"key": "id",
 							"value": "6469dbb0ba960198e6ba5867"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.trello.com/1/lists?name=To Do&idBoard=6469dbb0ba960198e6ba5867&key={{key}}&token={{token}}",
+			"id": "6b352f59-4fb6-4e9a-85a7-d3407b167fe5",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/lists?name=To Do&idBoard=6469dbb0ba960198e6ba5867&key={{key}}&token={{token}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"lists"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "To Do"
+						},
+						{
+							"key": "idBoard",
+							"value": "6469dbb0ba960198e6ba5867"
+						},
+						{
+							"key": "key",
+							"value": "{{key}}"
+						},
+						{
+							"key": "token",
+							"value": "{{token}}"
 						}
 					]
 				}
