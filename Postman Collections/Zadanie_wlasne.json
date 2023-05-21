@@ -7,6 +7,23 @@
 	"item": [
 		{
 			"name": "BoardZadanieWłasne",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "b1b4af93-e6a2-4fa8-acc8-5fc2aa1ea531",
+						"exec": [
+							"pm.test(\"Successful POST request\", function () {\r",
+							"    pm.expect(pm.response.code).to.be.oneOf([200,201, 202]);\r",
+							"});\r",
+							"pm.test(\"Response time is less than 450ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(450);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"id": "44df6a36-aa7b-4143-8f67-eb7106d4b90d",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
@@ -42,8 +59,7 @@
 						},
 						{
 							"key": "defaultLists",
-							"value": "false",
-							"type": "text"
+							"value": "false"
 						}
 					]
 				}
