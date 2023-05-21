@@ -942,6 +942,23 @@
 		},
 		{
 			"name": "AddChecklist",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "dc9f4b75-0979-43fc-b513-202a59091f8a",
+						"exec": [
+							"pm.test(\"Successful POST request\", function () {\r",
+							"    pm.expect(pm.response.code).to.be.oneOf([200,201, 202]);\r",
+							"});\r",
+							"pm.test(\"Response time is less than 450ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(450);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"id": "20e8ab0f-8b52-4605-99f5-c439f12186b6",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
@@ -976,8 +993,7 @@
 						},
 						{
 							"key": "name",
-							"value": "Checklista",
-							"type": "text"
+							"value": "Checklista"
 						}
 					]
 				}
@@ -986,6 +1002,23 @@
 		},
 		{
 			"name": "LabelOnCard",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "97f03649-d96a-4a56-938a-5acb6329dcdd",
+						"exec": [
+							"pm.test(\"Successful POST request\", function () {\r",
+							"    pm.expect(pm.response.code).to.be.oneOf([200, 201, 202]);\r",
+							"});\r",
+							"pm.test(\"Response time is less than 450ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(450);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"id": "557240c6-b704-4ca7-994c-73d3a1e00475",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
