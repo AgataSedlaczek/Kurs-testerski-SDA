@@ -878,6 +878,23 @@
 		},
 		{
 			"name": "CreateCardToDo",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "89d8d311-ebbe-4c44-bbb6-4ca03297df5c",
+						"exec": [
+							"pm.test(\"Successful POST request\", function () {\r",
+							"    pm.expect(pm.response.code).to.be.oneOf([200,201, 202]);\r",
+							"});\r",
+							"pm.test(\"Response time is less than 450ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(450);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"id": "f75e5115-0235-43d0-a28f-eda4ad05c5f2",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
