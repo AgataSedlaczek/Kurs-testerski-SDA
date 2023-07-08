@@ -29,7 +29,8 @@
 card number - dowolny ciąg cyfr powyżej 25 znaków, mail - dowolnym mail testowy
     spodziewany efekty - kominikat od błędnej ilości znaków w polu
 
-![prawidłowy komunikat](image-6.png)
+![wprowadzone dane](image-6.png)
+![prawidłowy komunikat](image-8.png)
 
 5. Dane wejściowe: Country - France, City - Wroclaw, pick up date - dwolna data, drop-off date - dowolna data
     spodziewany efekt - komunikat o błędnym mieście względem kraju
