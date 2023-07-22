@@ -7,7 +7,7 @@
 	"item": [
 		{
 			"name": "token",
-			"_postman_id": "fc17e6f7-514f-4b87-828b-3582011c08ff",
+			"id": "fc17e6f7-514f-4b87-828b-3582011c08ff",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -29,7 +29,7 @@
 		},
 		{
 			"name": "getbookingid",
-			"_postman_id": "7410f529-364a-4263-a6ca-f9c72838230d",
+			"id": "7410f529-364a-4263-a6ca-f9c72838230d",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -42,7 +42,7 @@
 		},
 		{
 			"name": "bookingdata",
-			"_postman_id": "06b58a67-3e03-43f3-875d-f97d06a5995f",
+			"id": "06b58a67-3e03-43f3-875d-f97d06a5995f",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -64,8 +64,7 @@
 					"variable": [
 						{
 							"key": "id",
-							"value": "164",
-							"type": "string"
+							"value": "164"
 						}
 					]
 				}
@@ -74,7 +73,7 @@
 		},
 		{
 			"name": "createbooking",
-			"_postman_id": "e548ef54-ca11-4ad9-991c-f73d011071b5",
+			"id": "e548ef54-ca11-4ad9-991c-f73d011071b5",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -96,7 +95,7 @@
 		},
 		{
 			"name": "bookingedit",
-			"_postman_id": "c8f7356a-136d-4771-a53c-b297f72f8765",
+			"id": "c8f7356a-136d-4771-a53c-b297f72f8765",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -142,8 +141,7 @@
 					"variable": [
 						{
 							"key": "id",
-							"value": "560",
-							"type": "string"
+							"value": "560"
 						}
 					]
 				}
@@ -152,7 +150,7 @@
 		},
 		{
 			"name": "editonedata",
-			"_postman_id": "ba984cf8-362a-4c26-b24d-8ccc2b6f4bd5",
+			"id": "ba984cf8-362a-4c26-b24d-8ccc2b6f4bd5",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -191,8 +189,7 @@
 						{
 							"id": "6c8ba067-ff29-4458-a27c-81b5dcb40985",
 							"key": "id",
-							"value": "560",
-							"type": "string"
+							"value": "560"
 						}
 					]
 				}
@@ -201,7 +198,7 @@
 		},
 		{
 			"name": "delete",
-			"_postman_id": "108e01c0-892e-4e5a-b2f3-e8bc71b8e7da",
+			"id": "108e01c0-892e-4e5a-b2f3-e8bc71b8e7da",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
